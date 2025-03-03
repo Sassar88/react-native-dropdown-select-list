@@ -76,6 +76,11 @@ export interface SelectListProps  {
     /**
     * Trigger an action when option is selected
     */
+    onSearch?: (val: string) => void,
+
+    /**
+    * Trigger an action when option is selected
+    */
     onSelect?: () => void,
 
     /**
